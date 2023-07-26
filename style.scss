@@ -1,0 +1,247 @@
+@import url("https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&family=Castoro:ital@0;1&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+img {
+  vertical-align: middle;
+  max-width: 100%;
+}
+
+body {
+  line-height: 1.5;
+  font-family: "Bruno Ace SC", cursive, "Castoro", serif;
+  color: #ffffff;
+  background-color: #000000;
+}
+
+.container {
+  max-width: 1296px;
+  margin: 0 auto;
+}
+
+
+// font-size
+.fs-1 {
+  font-size: 128px;
+}
+
+.fs-2 {
+  font-size: 64px;
+}
+
+.fs-3 {
+  font-size: 24px;
+}
+
+.fs-4 {
+  font-size: 20px;
+}
+
+.fs-5 {
+  font-size: 16px;
+}
+
+// display
+.d-block{
+  display: block;
+}
+
+.d-inline-block {
+  display: inline-block;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.flex-wrap {
+  flex-wrap: wrap;
+}
+
+.flex-direction-column {
+  flex-direction: column;
+}
+
+.jcc {
+  justify-content: center;
+}
+
+.aic {
+  align-items: center;
+}
+
+.jcsb {
+  justify-content: space-between;
+}
+
+.fx-1 {
+  flex: 1;
+}
+
+// flex-gap
+.gap-24 {
+  gap: 24px;
+}
+
+.gap-x-60 {
+  gap: 0px 60px;
+}
+
+.gap-x-16 {
+  gap: 0px 16px;
+}
+
+.gap-x-20 {
+  gap: 0px 20px;
+}
+
+.gap-x-24 {
+  gap: 0px 24px;
+}
+
+
+// padding & margin
+.p-16 {
+  padding: 16px;
+}
+
+.p-12-24 {
+  padding: 12px 24px;
+}
+
+
+.pt-40 {
+  padding-top: 40px;
+}
+
+.py-40 {
+  padding: 40px 0px;
+}
+
+.py-72 {
+  padding-top: 72px;
+  padding-bottom: 72px;
+}
+
+.py-160 {
+  padding: 160px 0px;
+}
+
+.mr-4 {
+  margin-right: 4px;
+}
+
+.mb-4 {
+  margin-bottom: 4px;
+}
+
+.mb-16 {
+  margin-bottom: 16px;
+}
+
+.mb-28 {
+  margin-bottom: 28px;
+}
+
+.mb-32 {
+  margin-bottom: 32px;
+}
+
+.mb-36 {
+  margin-bottom: 36px;
+}
+
+.ml-auto {
+  margin-left: auto;
+}
+
+// max-width
+.mw-100 {
+  max-width: 100px;
+}
+
+.mw-162 {
+  max-width: 162px;
+}
+
+.mw-196 {
+  max-width: 196px;
+}
+
+.mw-306 {
+  max-width: 306px;
+}
+
+.mw-526 {
+  max-width: 526px;
+}
+
+.mw-746 {
+  max-width: 746px;
+}
+
+.mw-856 {
+  max-width: 856px;
+}
+
+// text
+.text-center {
+  text-align: center;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.title-color {
+  color: #00FFA3;
+}
+
+.text-black {
+  color: #000000;
+}
+
+.text-white {
+  color: #ffffff;
+}
+
+// background
+.intro-background-img {
+  background-image: url('https://raw.githubusercontent.com/hexschool/2022-web-layout-training/main/2023week2/background-img.png');
+}
+
+.contact-background-color {
+  background: linear-gradient(180deg, #050014 0%, rgba(1, 2, 30, 0.89) 100%);
+}
+
+.bg-white {
+  background-color: #ffffff;
+}
+
+.bg-black {
+  background-color: #000000;
+}
+
+// border
+.border-gray {
+  border: 1px solid #E3E3E3;
+}
+
+.border-radius-32 {
+  border-radius: 32px;
+}
+
+// hover
+.hover-shadow:hover {
+  transition: all 0.3s ease-in-out;
+  box-shadow: 0px 0px 16px 3px #9094FFE5;
+}
